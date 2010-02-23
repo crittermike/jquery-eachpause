@@ -15,7 +15,13 @@ moving on to the next one.
 Usage
 ----------
 
-$('.image').eachPause(5000, function() {
-  // code here
-});
+First, make sure to include jquery.eachpause.js...
+
+    <script type="text/javascript" src="jquery.eachpause.js"></script>
+
+Then, in your jQuery, just do something like...
+
+    $('.selector').eachPause(5000, function() {
+      // Do whatever would normally go in .each() here.
+    });
 
